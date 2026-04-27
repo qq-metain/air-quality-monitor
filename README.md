@@ -1,12 +1,12 @@
-Air Quality Monitor
+# Air Quality Monitor
 
-Introduction
+## Introduction
 
 Air Quality Monitor is a Flutter mobile application that helps users understand the air quality around their current location. The app uses mobile location sensing, real-time air quality data, local history storage, weekly trend visualisation, and AI-generated health advice to support everyday decisions such as whether to go outside, exercise outdoors, or open windows.
 
 The main problem this app addresses is that many urban users make daily health and mobility decisions without checking local environmental conditions. Air quality can change across time and location, but this information is often not presented in a simple, actionable way. This app turns environmental data into clear, practical advice.
 
-Connected Environment Theme
+## Connected Environment Theme
 
 This project fits the Connected Environment theme because it connects:
 
@@ -20,7 +20,7 @@ This project fits the Connected Environment theme because it connects:
 
 The app does not only display data. It creates a feedback loop between the user, their physical environment, and digital services. The user can check the current environment, receive advice, save records, and review trends later.
 
-Key Features
+## Key Features
 
 - Splash screen and login/register flow
 - Current location detection using the mobile device
@@ -33,7 +33,7 @@ Key Features
 - English and Chinese language switch
 - Local API key configuration using `apikey.env`
 
-User Journey
+## User Journey
 
 The user journey is designed around a simple daily scenario:
 
@@ -48,7 +48,7 @@ The user journey is designed around a simple daily scenario:
 
 This creates a repeat interaction pattern: users can return to the app before commuting, exercising, opening windows, or planning outdoor activity.
 
-Storyboarding
+## Storyboarding
 
 The initial concept was based on the idea of helping users make quick environmental decisions.
 
@@ -64,7 +64,7 @@ Suggested storyboard:
 
 ![Storyboard](assets/screenshots/storyboard.png)
 
-UI Design
+## UI Design
 
 The interface uses a card-based layout to make environmental data easy to understand. The AQI card gives the user an immediate summary, while pollutant cards provide more detailed information. The chart screen supports longer-term understanding, and the history screen lets the user review previous readings.
 
