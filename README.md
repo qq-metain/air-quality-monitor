@@ -62,8 +62,17 @@ Suggested storyboard:
 6. User checks weekly trend.
 7. User decides whether to go outside, exercise, or open windows.
 
-![Storyboard](assets/screenshots/storyboard.png)
+### 1. Problem Context
 
+![Storyboard problem context](assets/storyboard/storyboard_1_problem.jpg)
+
+### 2. App Interaction
+
+![Storyboard app interaction](assets/storyboard/storyboard_2_app_use.jpg)
+
+### 3. Trends and Advice
+
+![Storyboard trends and advice](assets/storyboard/storyboard_3_advice_trend.jpg)
 ## UI Design
 
 The interface uses a card-based layout to make environmental data easy to understand. The AQI card gives the user an immediate summary, while pollutant cards provide more detailed information. The chart screen supports longer-term understanding, and the history screen lets the user review previous readings.
