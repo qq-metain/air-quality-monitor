@@ -113,7 +113,6 @@ Main UI design choices:
 The demo video shows the main user flow, including login, fetching air quality, viewing pollutant data, reading AI advice, checking weekly trends, viewing history records, and switching language.
 
 [Watch the demo video](demo/app_demo.mp4)
-
 ## APIs and Services
 
 This app uses several services and libraries:
