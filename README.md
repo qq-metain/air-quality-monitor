@@ -52,8 +52,6 @@ This creates a repeat interaction pattern: users can return to the app before co
 
 The initial concept was based on the idea of helping users make quick environmental decisions.
 
-Suggested storyboard:
-
 1. User wants to go outside.
 2. User opens Air Quality Monitor.
 3. App detects the current location.
