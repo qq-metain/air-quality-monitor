@@ -103,14 +103,9 @@ Main UI design choices:
 ### Weekly Trend and History
 
 <p>
-  <img src="assets/screenshots/weekly_trend.png" width="240">
-  <img src="assets/screenshots/history.png" width="240">
-</p>
-
-### History Detail
-
-<p>
-  <img src="assets/screenshots/history_detail.png" width="240">
+  <img src="assets/screenshots/login.png" width="220">
+  <img src="assets/screenshots/home.png" width="220">
+  <img src="assets/screenshots/weekly_trend.png" width="220">
 </p>
 
 ## Video Demo
