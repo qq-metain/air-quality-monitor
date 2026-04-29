@@ -86,33 +86,32 @@ Main UI design choices:
 
 ## Screenshots
 
-### Register
+### Register and Login
 
-![Register](assets/screenshots/register.png)
+<p>
+  <img src="assets/screenshots/register.png" width="240">
+  <img src="assets/screenshots/login.png" width="240">
+</p>
 
-### Login
+### Home Screens
 
-![Login](assets/screenshots/login.png)
+<p>
+  <img src="assets/screenshots/home_location.png" width="240">
+  <img src="assets/screenshots/home.png" width="240">
+</p>
 
-### Home - Before Fetching Data
+### Weekly Trend and History
 
-![Home](assets/screenshots/home.png)
-
-### Home - Air Quality Result
-
-![Home_Location](assets/screenshots/home_location.png)
-
-### Weekly Trend
-
-![Weekly Trend](assets/screenshots/weekly_trend.png)
-
-### History
-
-![History](assets/screenshots/history.png)
+<p>
+  <img src="assets/screenshots/weekly_trend.png" width="240">
+  <img src="assets/screenshots/history.png" width="240">
+</p>
 
 ### History Detail
 
-![History Detail](assets/screenshots/history_detail.png)
+<p>
+  <img src="assets/screenshots/history_detail.png" width="240">
+</p>
 
 ## Video Demo
 
