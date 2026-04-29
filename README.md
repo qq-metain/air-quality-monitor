@@ -96,8 +96,8 @@ Main UI design choices:
 ### Home Screens
 
 <p>
-  <img src="assets/screenshots/home_location.png" width="240">
   <img src="assets/screenshots/home.png" width="240">
+  <img src="assets/screenshots/home_location.png" width="240">
 </p>
 
 ### Weekly Trend and History
