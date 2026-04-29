@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Air Quality Monitor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      background: #f5f8fc;
+      color: #1f2430;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #1769c2, #3fa9f5);
+      color: white;
+      padding: 80px 24px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 48px;
+      margin: 0 0 16px;
+    }
+
+    header p {
+      max-width: 760px;
+      margin: 0 auto 28px;
+      font-size: 20px;
+      opacity: 0.95;
+    }
+
+    .button {
+      display: inline-block;
+      background: white;
+      color: #1769c2;
+      padding: 14px 24px;
+      border-radius: 999px;
+      text-decoration: none;
+      font-weight: 700;
+      margin: 6px;
+    }
+
+    section {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 56px 24px;
+    }
+
+    h2 {
+      font-size: 32px;
+      margin-bottom: 18px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: white;
+      border-radius: 20px;
+      padding: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #1769c2;
+    }
+
+    .screenshots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 24px;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .screenshots img {
+      width: 220px;
+      border-radius: 28px;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.16);
+      background: white;
+    }
+
+    .story {
+      background: white;
+      border-radius: 20px;
+      padding: 28px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      text-align: center;
+      padding: 36px 24px;
+      background: #1f2430;
+      color: white;
+    }
+
+    footer a {
+      color: #8ecbff;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Air Quality Monitor</h1>
+    <p>
+      A Flutter mobile app that helps users check local air quality, understand pollutant data,
+      review trends, and receive practical AI health advice before going outside.
+    </p>
+    <a class="button" href="https://github.com/qq-metain/air-quality-monitor">View GitHub Repository</a>
+    <a class="button" href="#screenshots">View Screenshots</a>
+  </header>
+
+  <section>
+    <h2>Problem Statement</h2>
+    <p>
+      Many users check the weather before going outside, but normal weather forecasts often do not
+      clearly explain local air quality. This app helps users decide whether it is suitable to go
+      outside, exercise outdoors, commute, or open windows based on current environmental conditions.
+    </p>
+  </section>
+
+  <section>
+    <h2>Connected Environment Concept</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Mobile Sensing</h3>
+        <p>The app uses the phone's location capability to detect the user's current position.</p>
+      </div>
+      <div class="card">
+        <h3>Environmental Data</h3>
+        <p>Real-time AQI and pollutant information are fetched from an external air quality API.</p>
+      </div>
+      <div class="card">
+        <h3>AI Advice</h3>
+        <p>The app converts raw pollutant values into practical health advice using an AI service.</p>
+      </div>
+      <div class="card">
+        <h3>Data Over Time</h3>
+        <p>History records and weekly trend charts help users understand changes in air quality.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Main Features</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Real-time AQI</h3>
+        <p>Shows the current air quality index with a clear status label.</p>
+      </div>
+      <div class="card">
+        <h3>Pollutant Details</h3>
+        <p>Displays PM2.5, PM10, Ozone, NO₂, SO₂, and CO values.</p>
+      </div>
+      <div class="card">
+        <h3>Weekly Trend</h3>
+        <p>Visualises air quality changes over time using a trend chart.</p>
+      </div>
+      <div class="card">
+        <h3>History Records</h3>
+        <p>Saves previous air quality readings locally for later review.</p>
+      </div>
+      <div class="card">
+        <h3>Bilingual Interface</h3>
+        <p>Supports English and Chinese interface switching.</p>
+      </div>
+      <div class="card">
+        <h3>Practical Advice</h3>
+        <p>Gives suggestions about outdoor activity, exercise, and ventilation.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>User Journey</h2>
+    <div class="story">
+      <p>
+        The user wants to go outside but is unsure about the air quality. They open the app,
+        log in, tap <strong>Get Air Quality</strong>, and receive current AQI, pollutant details,
+        and AI health advice. They can then check weekly trends and history records to understand
+        how the environment changes over time.
+      </p>
+    </div>
+  </section>
+
+  <section id="screenshots">
+    <h2>Screenshots</h2>
+    <div class="screenshots">
+      <img src="assets/screenshots/login.png" alt="Login screen">
+      <img src="assets/screenshots/home_location.png" alt="Home empty screen">
+      <img src="assets/screenshots/home.png" alt="Home AQI screen">
+      <img src="assets/screenshots/weekly_trend.png" alt="Weekly trend screen">
+      <img src="assets/screenshots/history.png" alt="History screen">
+      <img src="assets/screenshots/history_detail.png" alt="History detail screen">
+    </div>
+  </section>
+
+  <section>
+    <h2>Technology Stack</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Flutter & Dart</h3>
+        <p>Used to build the cross-platform mobile application.</p>
+      </div>
+      <div class="card">
+        <h3>Geolocator</h3>
+        <p>Used for location-based air quality detection.</p>
+      </div>
+      <div class="card">
+        <h3>Open-Meteo Air Quality API</h3>
+        <p>Used to fetch real-time environmental data.</p>
+      </div>
+      <div class="card">
+        <h3>SQLite</h3>
+        <p>Used to store local air quality history records.</p>
+      </div>
+      <div class="card">
+        <h3>DeepSeek API</h3>
+        <p>Used to generate AI health advice from pollutant values.</p>
+      </div>
+      <div class="card">
+        <h3>GitHub Pages</h3>
+        <p>Used to publish this landing page.</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Future Improvements</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Push Notifications</h3>
+        <p>Warn users when local air quality becomes poor.</p>
+      </div>
+      <div class="card">
+        <h3>Map View</h3>
+        <p>Show nearby air quality conditions visually on a map.</p>
+      </div>
+      <div class="card">
+        <h3>Cloud Sync</h3>
+        <p>Allow users to access their history across multiple devices.</p>
+      </div>
+      <div class="card">
+        <h3>Secure Backend Proxy</h3>
+        <p>Move AI API requests to a backend service for stronger key protection.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Air Quality Monitor | CASA0015 Mobile Systems and Interactions</p>
+    <p>
+      <a href="https://github.com/qq-metain/air-quality-monitor">GitHub Repository</a>
+    </p>
+  </footer>
+
+</body>
+</html>
