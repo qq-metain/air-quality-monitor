@@ -86,9 +86,21 @@ Main UI design choices:
 
 ## Screenshots
 
-### Home Screen
+### Register
 
-![Home Screen](assets/screenshots/home.png)
+![Register](assets/screenshots/register.png)
+
+### Login
+
+![Login](assets/screenshots/login.png)
+
+### Home - Before Fetching Data
+
+![Home](assets/screenshots/home.png)
+
+### Home - Air Quality Result
+
+![Home_Location](assets/screenshots/home_location.png)
 
 ### Weekly Trend
 
@@ -101,10 +113,6 @@ Main UI design choices:
 ### History Detail
 
 ![History Detail](assets/screenshots/history_detail.png)
-
-### Login / Register
-
-![Login](assets/screenshots/login.png)
 
 ## Video Demo
 
