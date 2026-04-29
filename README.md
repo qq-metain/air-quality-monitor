@@ -1,4 +1,9 @@
 # Air Quality Monitor
+## Landing Page
+
+The landing page introduces the problem, main features, user journey, screenshots, technology stack, and future improvements of the app.
+
+https://qq-metain.github.io/air-quality-monitor/
 
 ## Introduction
 
